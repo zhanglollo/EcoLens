@@ -9,7 +9,7 @@ import UIKit
 import Foundation
 
 class OpenAIVisionService {
-    private let apiKey = "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" // Store securely as shown previously
+    private let apiKey = "OPEN AI KEY" // Store securely as shown previously
     private let endpoint = "https://api.openai.com/v1/chat/completions"
     
     func analyzeImage(image: UIImage, prompt: String) async throws -> String {
