@@ -1,14 +1,14 @@
 //
-//  ecolensTests.swift
-//  ecolensTests
+//  yrhacksTests.swift
+//  yrhacksTests
 //
-//  Created by Litong Zhang on 2025-04-07.
+//  Created by Litong Zhang on 2025-04-06.
 //
 
 import Testing
-@testable import ecolens
+@testable import yrhacks
 
-struct ecolensTests {
+struct yrhacksTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

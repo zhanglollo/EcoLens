@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5A122BA72DA547B30093CDA6 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 5A122BA62DA547B30093CDA6 /* Config.xcconfig */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5A122B7C2DA4866A0093CDA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		5A122B6E2DA486680093CDA6 /* ecolens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecolens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A122B7B2DA4866A0093CDA6 /* ecolensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ecolensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A122B852DA4866A0093CDA6 /* ecolensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ecolensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A122BA62DA547B30093CDA6 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		5A122B652DA486680093CDA6 = {
 			isa = PBXGroup;
 			children = (
+				5A122BA62DA547B30093CDA6 /* Config.xcconfig */,
 				5A122B702DA486680093CDA6 /* ecolens */,
 				5A122B7E2DA4866A0093CDA6 /* ecolensTests */,
 				5A122B882DA4866A0093CDA6 /* ecolensUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A122BA72DA547B30093CDA6 /* Config.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +278,7 @@
 /* Begin XCBuildConfiguration section */
 		5A122B8D2DA4866A0093CDA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A122BA62DA547B30093CDA6 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -334,6 +342,7 @@
 		};
 		5A122B8E2DA4866A0093CDA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A122BA62DA547B30093CDA6 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -390,11 +399,13 @@
 		};
 		5A122B902DA4866A0093CDA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A122BA62DA547B30093CDA6 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TRJ8WWTUGP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -417,11 +428,13 @@
 		};
 		5A122B912DA4866A0093CDA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A122BA62DA547B30093CDA6 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TRJ8WWTUGP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -448,6 +461,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TRJ8WWTUGP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
@@ -466,6 +480,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TRJ8WWTUGP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
@@ -483,6 +498,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TRJ8WWTUGP;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = team.ecolensUITests;
@@ -499,6 +515,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TRJ8WWTUGP;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = team.ecolensUITests;

@@ -1,0 +1,12 @@
+//
+//  Config.xcconfig
+//  ecolens
+//
+//  Created by Litong Zhang on 2025-04-08.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+OPENAI_API_KEY = "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"
+
